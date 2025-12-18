@@ -192,13 +192,6 @@ main {
   margin-bottom: 0.5rem;
 }
 
-.product-item .product-description {
-  font-size: 0.95rem;
-  color: #4a5568;
-  line-height: 1.5;
-  margin-top: 0.75rem;
-}
-
 footer {
   background: rgba(255, 255, 255, 0.95);
   padding: 1.5rem 2rem;

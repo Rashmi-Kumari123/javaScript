@@ -3,7 +3,7 @@ const inventory = [
   { id: 101, name: "Laptop Pro", price: 1200, category: "Electronics" },
   { id: 102, name: "Desktop Chair", price: 350, category: "Furnitures" },
   { id: 103, name: "Mouse Pad", price: 15, category: "Accessories" },
-  { id: 104, name: 'Monitor "', price: 450, category: "Electronics" },
+  { id: 104, name: "Monitor", price: 450, category: "Electronics" },
 ];
 
 let currentProducts = [...inventory];

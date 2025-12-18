@@ -31,7 +31,6 @@ function renderProducts(products) {
             <div class="product-category">${product.category}</div>
             <div class="product-name">${product.name}</div>
             <div class="product-price">$${product.price.toFixed(2)}</div>
-            <div class="product-description">${product.description}</div>
         `;
 
     productListContainer.appendChild(productCard);

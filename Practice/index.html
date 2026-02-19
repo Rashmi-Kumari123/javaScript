@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Practice</title>
     <style>
       #box {
@@ -17,8 +17,12 @@
         color: red;
         margin: 5px;
       }
-      #button{
+      #button {
         background-color: blue;
+      }
+      #capital {
+        text-transform: uppercase;
+        text-align: center;
       }
     </style>
   </head>
@@ -29,9 +33,16 @@
       <h2 class="heading">Be Ethical</h2>
       <h3 class="heading">Think Less, Do more</h3>
     </header>
+    <h1 id="capital">Sitare University</h1>
     <div id="box">I am Rashmi a 3rd year b.tech CSE Student</div>
-    <hr>
-    <!-- Inline CSS has higher specificity than internal and external css that we write. -->
-    <button style="background-color: pink;" id="button" type="submit">Submit</button>
+    <hr />
+    <button style="background-color: pink" id="button" type="submit">
+      Submit
+    </button>
+    <hr />
+    <div id="outer">
+      I am Outer div
+      <div id="inner">I am Inner div</div>
+    </div>
   </body>
 </html>
